@@ -15,11 +15,12 @@ return [
 
     'title' => 'Mer Passion - Location de jet ski',
     'home' => 'Accueil',
+    'rents' => 'Noleggio',
     'boats' => 'Barca',
     'plicence' => 'Avec permis',
     'nlicence' => 'Sans permis',
     'jetski' => 'Moto d\'acqua',
     'about' => 'A propos',
-    'contact' => 'Contact',
+    'contact' => 'Contatto',
 
 ];

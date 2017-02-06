@@ -11,21 +11,7 @@
 |
 */
 
-/*Route::get('/', function () {
-    return view('welcome');
-});*/
-
-/*Route::get('/', ['as' => 'home', function()
-{
-    return "Je suis la page d\'accueil";
-}]);
-
-Route::get('/contact', function()
-{
-    return "Je suis la page de contact";
-});
-*/
-
+// Site
 Route::get('/', function()
 {
     return View::make('pages.home');
@@ -39,3 +25,12 @@ Route::get('contact', function()
     return View::make('layouts.contact');
 });
 Route::get('language/{lang}', 'LanguageController@show')->where('lang', implode('|', config('app.languages')));
+
+
+// Administration
+Route::get('administration', function()
+{
+    return View::make('administration.home');
+});
+
+Route::resource('administration/rents', 'RentController');

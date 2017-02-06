@@ -15,6 +15,7 @@ return [
 
     'title' => 'Mer Passion - Jet Ski Rental',
     'home' => 'Home',
+    'rents' => 'Rent',
     'boats' => 'Boats',
     'plicence' => 'With Driving Licence',
     'nlicence' => 'Without Driving Licence',

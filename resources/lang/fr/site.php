@@ -15,6 +15,7 @@ return [
 
     'title' => 'Mer Passion - Location de jet ski',
     'home' => 'Accueil',
+    'rents' => 'Location',
     'boats' => 'Bateaux',
     'plicence' => 'Avec permis',
     'nlicence' => 'Sans permis',
